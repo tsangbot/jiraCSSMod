@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name       JIRA User Interface CSS Edits
-// @namespace  http://git.tpuk.eu/tp/juice
-// @version    0.1.4
+// @namespace  http://corpupsource01.corp.theplatform.com/andrew.dicks/juice
+// @version    0.1.5
 // @description  Modifies the stylesheet to improve JIRA UI
 // @include    /https?\:\/\/theplatform\.jira\.com\/.*RapidBoard\.jspa.*/
 // @include    /https?\:\/\/theplatform\.jira\.com\/browse/[A-Z]*-[0-9]*/
-// @updateURL  http://git.tpuk.eu/tp/juice/raw/master/juice.js
+// @updateURL  http://corpupsource01.corp.theplatform.com/andrew.dicks/juice/raw/master/juice.js
 // ==/UserScript==
 
 // Helper function to insert the styles into the page
