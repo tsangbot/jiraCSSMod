@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name       JIRA User Interface CSS Edits
 // @namespace  http://corpupsource01.corp.theplatform.com/andrew.dicks/juice
-// @version    0.1.6
+// @version    0.1.7
 // @description  Modifies the stylesheet to improve JIRA UI
 // @include    /https?\:\/\/theplatform\.jira\.com\/.*RapidBoard\.jspa.*/
 // @include    /https?\:\/\/theplatform\.jira\.com\/browse/[A-Z]*-[0-9]*/
 // @include    /https?\:\/\/livesport\.atlassian\.net\/.*RapidBoard\.jspa.*/
 // @include    /https?\:\/\/livesport\.atlassian\.net\/browse/[A-Z]*-[0-9]*/
+// @include    /https?\:\/\/jira\.home\.andrewdicks\.co\.uk\/.*RapidBoard\.jspa.*/
+// @include    /https?\:\/\/jira\.home\.andrewdicks\.co\.uk\/browse/[A-Z]*-[0-9]*/
 // @updateURL  http://corpupsource01.corp.theplatform.com/andrew.dicks/juice/raw/master/juice.js
 // ==/UserScript==
 
