@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       JIRA User Interface CSS Edits
 // @namespace  http://corpupsource01.corp.theplatform.com/andrew.dicks/juice
-// @version    0.1.7
+// @version    0.1.8
 // @description  Modifies the stylesheet to improve JIRA UI
 // @include    /https?\:\/\/theplatform\.jira\.com\/.*RapidBoard\.jspa.*/
 // @include    /https?\:\/\/theplatform\.jira\.com\/browse/[A-Z]*-[0-9]*/
@@ -28,7 +28,7 @@ function addGlobalStyle(css) {
 addGlobalStyle('.ghx-done { opacity: 0.3; }');
 
 // Make the coloured grabber slightly wider so it can be seen clearly
-addGlobalStyle('.ghx-backlog-card .ghx-grabber  { width: 5px; left: 2px; top: 2px, bottom: 2px; height: auto }');
+addGlobalStyle('.ghx-backlog-card .ghx-grabber  { width: 8px; left: 2px; top: 2px, bottom: 2px; height: auto }');
 
 // Prefix the JIRA ID to the front of subtasks
 jQuery('div.subtask-table-container').find('td.stsummary > a.issue-link').each(function(idx, obj) { var $this = jQuery(obj); $this.prepend('[' + $this.data('issue-key') + '] '); });
